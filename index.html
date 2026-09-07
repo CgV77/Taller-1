@@ -2,37 +2,48 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Taller 1 - Estructura HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi espacio universitario</title>
 </head>
 <body>
 
-    <!-- Encabezado Principal -->
+    
     <header>
-        <h1>Taller 1: Desarrollo de Página Web Básica</h1>
-        <p>Asignatura: Desarrollo Web</p>
+        <h1>Mi espacio universitario</h1>
+        <p>Un espacio para conocer mi proceso de formacion como futuro profesional.</p>
     </header>
 
-    <!-- Información del Grupo -->
-    <section>
-        <h2>Información del Grupo</h2>
-        <ul>
-            <li><strong>Integrante 1:</strong> Esteban Godoy</li>
-           
-        </ul>
-    </section>
+    <nav>
+        <a href="#sobre-mi">Sobre mi</a> | 
+        <a href="#intereses-listas">Intereses</a> | 
+        <a href="#multimedia-avanzada">Multimedia</a> | 
+        <a href="#horario-tabla">Horario</a> | 
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-    <!-- Introducción al Taller -->
     <main>
-        <section>
-            <h2>Objetivo del Proyecto</h2>
-            <p>Este proyecto consiste en la construcción de un documento HTML semántico y puro, aplicando etiquetas de texto, multimedia, tablas y formularios sin el uso de estilos CSS ni interactividad con JavaScript.</p>
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            
+            <p>Mi nombre es <strong>Esteban </strong> y estudio <em>Ingeniería de Sistemas</em>.</p>
+            <p>Actualmente curso <mark>Fundamentos de Programacion Web</mark> en el grupo <strong>4303A</strong>.</p>
         </section>
-    </main>
 
-   
-    <footer>
-        <p>&copy; 2026 - Repositorio creado para la actividad de clase.</p>
-    </footer>
+     
+        <section id="significado">
+            <h2>Etiquetas de texto y significado</h2>
+            <p>Estoy aprendiendo <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+            <p>Una expresion matematica puede escribirse como x<sup>2</sup>.</p>
+            <p>La formula quimica del agua es H<sub>2</sub>O.</p>
+            <p>En este taller he <del>eliminado codigo basura</del> e <ins>insertado etiquetas semánticas</ins> correctas para no tener un elemento <small>pequeño</small> sin significado.</p>
+        </section>
 
-</body>
-</html>
+       
+        <section id="citas">
+            <h2>Citas y referencias</h2>
+            <p>Como se menciona en la documentacion oficial de MDN Web Docs:</p>
+            <blockquote cite="https://mozilla.org">
+                HTML (Lenguaje de Marcas de Hipertexto) es el codigo que se utiliza para estructurar y desplegar una página web y sus contenidos.
+            </blockquote>
+            <p>Fuente consultada en: <cite>MDN Contributors</cite></p>
+        </section>
