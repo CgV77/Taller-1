@@ -74,3 +74,76 @@
                 <li><a href="https://un.org" target="_blank" rel="noopener">Naciones Unidas - Impacto Digital</a></li>
             </ul>
         </section>
+        <hr>
+        <section id="horario">
+            <h2>Mi Horario Semanal</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>08:00 - 10:00</td>
+                        <td>Fundamentos Web</td>
+                        <td>Estudio Autonomo</td>
+                        <td>Fundamentos Web</td>
+                        <td>algebra Lineal</td>
+                        <td>Estudio Autonomo</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 12:00</td>
+                        <td>Calculo</td>
+                        <td>Introduccion IA</td>
+                        <td>Calculo</td>
+                        <td>Introduccion IA</td>
+                        <td>Proyecto Final</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="nombre">Nombre Completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+                </p>
+                <p>
+                    <label for="correo">Correo Electronico:</label><br>
+                    <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
+                </p>
+                <p>
+                    <label for="motivo">Motivo de contacto:</label><br>
+                    <select id="motivo" name="motivo">
+                        <option value="sugerencia">Sugerencia del sitio</option>
+                        <option value="clase">Duda academica</option>
+                        <option value="otro">Otro motivo</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="40" required placeholder="Escribe aquí tu mensaje..."></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar Informacion">
+                    <input type="reset" value="Limpiar Formulario">
+                </p>
+            </form>
+        </section>
+
+    </main> <!-- Aqui se cierra el contenedor principal -->
+
+    <footer>
+        <p>&copy; 2026 - Diseñado exclusivamente en HTML Semantico para la Facultad de Ingeniería.</p>
+    </footer>
+
+</body>
+</html>
